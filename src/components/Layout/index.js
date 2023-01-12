@@ -1,9 +1,6 @@
 import React, { Fragment } from 'react';
 import { Helmet } from 'react-helmet';
 import { node } from 'prop-types';
-
-import Favicon from '@assets/images/arin-miftah-favicon.png';
-//import IMAGE_URL from '@assets/images/khitbahmeta.jpg';
 import '@assets/css/icomoon.css';
 import '@assets/css/bootstrap.css';
 import '@assets/css/style.css';
@@ -15,7 +12,6 @@ function MainLayout({ children }) {
         <title>Dai ❤️ Santi</title>
         {/* font and SEO tags */}
         <meta property="og:title" content="La boda de Dai y Santi" />
-        <meta property="og:url" content="https://arin.miftahussalam.com" />
         <meta property="og:site_name" content="La boda de Dai y Santi" />
         <meta property="og:type" content="website" />
         <meta name="twitter:title" content="La boda de Dai y Santi" />

@@ -55,7 +55,7 @@ function TicketData({ guest, configData }) {
                 QRCode berisi link e-invitation
               </li>
               <li>
-                <span style={{ color: '#f14e95', textTransform: 'uppercase' }}>
+                <span style={{ color: '##819DA9', textTransform: 'uppercase' }}>
                   {`Diharapkan hadir sesuai waktu yang sudah ditentukan`}
                 </span>
               </li>
