@@ -14,4 +14,5 @@ export const styWrapper = css`
 export const styFlex = css`
   display: flex;
   justify-content: center;
+  margin: 0px;
 `;
