@@ -276,11 +276,13 @@ export const styMargin = (px) => css`
 
 export const styButtonWrapper = css`
   display: flex;
+  width: auto;
   justify-content: center;
 
   .btn {
     background: #f14e95;
     color: #fff;
     border: none;
+    width: auto;
   }
 `;

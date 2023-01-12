@@ -11,10 +11,8 @@ import WeddingSection from '@components/WeddingSection';
 import LocationSection from '@components/LocationSection';
 import StorySection from '@components/StorySection';
 import PhotoSection from '@components/PhotoSection/Loadable';
-import WishesSection from '@components/WishesSection';
 import ConfirmationSection from '@components/ConfirmationSection';
 import FooterSection from '@components/FooterSection';
-import CovidSection from '@components/Covid19';
 import FloatingMusic from '@components/FloatingMusic/Loadable';
 
 function Home({ location }) {
@@ -24,11 +22,8 @@ function Home({ location }) {
   const isAnonymGuest = guestName === '' && !isInvitation;
   const codeLink = getQueryValue(location, 'code') || '';
   const finalTicketLink = `code=${codeLink}&name=${guestName}`;
-  var type = ''
-  if (isInvitation){
-    type = 'invitation'
-  }
-  const finalWishesLink = `code=${codeLink}&name=${guestName}&type=${type}`;
+
+
 
   const [showDetailContent, setShowDetailContent] = useState(false);
 
@@ -43,11 +38,9 @@ function Home({ location }) {
       <Fragment>
         <HelloSection isInvitation={isInvitation} />
         <WeddingSection isInvitation={isInvitation} />
-        <CovidSection />
         <LocationSection />
         <StorySection />
         <PhotoSection />
-        <WishesSection codeLink={finalWishesLink} />
         <ConfirmationSection guestName={firstName} isInvitation={isInvitation} codeLink={finalTicketLink} />
         <FooterSection isInvitation={isInvitation} />
       </Fragment>

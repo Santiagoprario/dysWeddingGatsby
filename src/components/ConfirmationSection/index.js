@@ -12,26 +12,12 @@ function ConfirmationSection({ isInvitation, guestName, codeLink }) {
       <div className="container">
         <div className="row">
           <div className="col-md-8 col-md-offset-2 text-center fh5co-heading">
-          {!guestName && (
-            <h2 className="main-font">{` Terima Kasih`}</h2>
-          )}
-          {guestName && (
-            <h2 className="main-font">{` Apakah kamu hadir, ${guestName}?`}</h2>
-          )}
+            <h2 className="">{`Por favor, confirmanos tu presencia`}</h2>
             <p>
-              Atas kehadiran & do'a restu saudara/i, <br /> kami ucapkan terima kasih. Wassalaamu'alaikum warahmatullahi wabarakaatuh.
+              Es muy importante para nosotros que nos digas lo antes posible si venis para poder organizarnos mejor <br /> Por favor, decinoslo por el mismo medio por el cual te llego esta invitacion, tenes tiempo hasta el 20/02/23, no la cuelgues!
             </p>
           </div>
         </div>
-        {isInvitation && (
-        <div className="row" css={styFlex}>
-          <div className="col-md-3">
-            <Link to={`e-ticket?${codeLink}`}>
-              <button className="btn btn-default btn-block">Lihat e-Ticket</button>
-            </Link>
-          </div>
-        </div>
-        )}
         {!isInvitation && (
         <div className="row" css={styFlex}>
           <div className="col-md-3">

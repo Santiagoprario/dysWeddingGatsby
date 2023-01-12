@@ -1,7 +1,7 @@
 import React, { Fragment, useState } from 'react';
 import IconMusic from '@assets/images/music-icon.png';
 import IconMusicStop from '@assets/images/music-stop-icon.png';
-import MusicBacksound from '@assets/music/lagu-pernikahan-impian.mp3';
+import MusicBacksound from '@assets/music/coldplay.mp3';
 
 import { styMusicFloating } from './styles';
 
@@ -36,7 +36,7 @@ function FloatingMusic() {
             src={play ? IconMusic : IconMusicStop}
             className="icon-music"
             alt="icon-music"
-            title={`${play ? 'Matikan Musik' : 'Putar Musik'}`}
+            title={`${play ? 'Detener' : 'Reproducir'}`}
           />
         </div>
       </div>

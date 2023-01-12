@@ -9,17 +9,11 @@ function FooterSection({ isInvitation }) {
           <div className="row copyright">
             <div className="col-md-12 text-center">
               <p>
-                <small className="block">&copy; 2022 Created by Miftah with lots of 🤎 for Arin.</small>
+                <small className="block">&copy; 2023 Creado con 🤎</small>
                 <small className="block">
-                  Song by{' '}
-                  <a href="https://www.youtube.com/watch?v=fb167KAxvrg" target="_blank" rel="noreferrer">
-                    Anandito Anisa - Pernikahan Impian
-                  </a>
-                </small>
-                <small className="block">
-                  Original Template from{' '}
-                  <a href="http://freehtml5.co/" target="_blank" rel="noreferrer">
-                    FREEHTML5.co
+                  Cancion:  {' '}
+                  <a href="https://www.youtube.com/watch?v=GK6Hwl3WShg" target="_blank" rel="noreferrer">
+                    A sky full of Stars - Coldplay
                   </a>
                 </small>
               </p>

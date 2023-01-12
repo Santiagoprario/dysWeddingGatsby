@@ -11,7 +11,7 @@ function StoryItem({ image, title, date, description, isInverted }) {
           <span className="date">{date}</span>
         </div>
         <div className="timeline-body">
-          <p>{description}</p>
+          <p>{description || ''}</p>
         </div>
       </div>
     </li>

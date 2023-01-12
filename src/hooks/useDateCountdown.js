@@ -26,6 +26,7 @@ function useDateCountdown() {
       setTimeHasRunOut(true);
       return;
     }
+    
 
     const daysLeft = Math.floor(TIME_LEFT / DAY_PER_SECONDS);
     const hoursLeft = Math.floor((TIME_LEFT % DAY_PER_SECONDS) / HOUR_PER_SECONDS);

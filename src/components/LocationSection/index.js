@@ -10,7 +10,7 @@ function LocationSection() {
         <div className="container">
           <div className="row">
             <div className="col-md-8 col-md-offset-2 text-center fh5co-heading animate-box">
-              <h2 className="main-font">Lokasi Acara</h2>
+              <h2 className="main-font">Ubicación del Evento</h2>
               <p className="sub-title">
                 <a
                   href={GOOGLE_MAPS_LINK}
@@ -19,18 +19,17 @@ function LocationSection() {
                   rel="noreferrer"
                   style={{ color: '#828282' }}
                 >
-                  <strong>Baleendah, Bandung</strong>
+                  <strong>Salon Aqua</strong>
                 </a>{' '}
                 <br />
-                Jl. Laswi Cangkring RT/RW 05/07
-                kel. Jelekong, kec. Baleendah, kab. Bandung
+                Av. Jorge Newbery 8000, Mar del Plata.
               </p>
             </div>
           </div>
           <div className="row">
             <div className="col-md-10 col-md-offset-1">
               <iframe
-                src="https://maps.google.com/maps?q=Klinik%20Bintari%20Medika&t=&z=13&ie=UTF8&iwloc=&output=embed"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3139.889581836536!2d-57.6048695842027!3d-38.096233879702204!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9584e063bf84c17b%3A0xa1b352339ced60ae!2sAquopolis!5e0!3m2!1ses!2sus!4v1673562356410!5m2!1ses!2sus"
                 width="100%"
                 height="450"
                 frameBorder="0"
@@ -40,24 +39,6 @@ function LocationSection() {
                 tabIndex="0"
                 title="Google Maps - Arin & Miftah Wedding Party"
               ></iframe>
-            </div>
-            <div className="row">
-              <div className="col-md-10 col-md-offset-1">
-                <img
-                  src={Peta}
-                  class="center"
-                  display="block"
-                  margin-left="auto"
-                  margin-right="auto"
-                  width="100%"
-                  height="100%"
-                  frameBorder="0"
-                  aria-hidden="false"
-                  tabIndex="0"
-                  title="Peta Lokasi"
-                  alt="peta-lokasi-cangkring"
-                ></img>
-              </div>
             </div>
           </div>
         </div>

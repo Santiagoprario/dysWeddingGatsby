@@ -1,13 +1,13 @@
 import React, { Fragment } from 'react';
 import { bool } from 'prop-types';
 
-import Bride from '@assets/images/p-arin.jpg';
-import Groom from '@assets/images/p-miftah.jpg';
+import Bride from '@assets/images/dai.jpeg';
+import Groom from '@assets/images/santi.jpeg';
 
 import { styWrapper } from './styles';
 
 function HelloSection({ isInvitation }) {
-  const finalSubtitle = 'Minggu, 11 September 2022';
+  const finalSubtitle = 'Sábado, 4 de Marzo de 2023';
 
   return (
 	<Fragment>
@@ -15,12 +15,9 @@ function HelloSection({ isInvitation }) {
 		<div className="container">
 		  <div className="row">
 			<div className="col-md-8 col-md-offset-2 text-center fh5co-heading">
-			  <h2 className="main-font">Assalamualaikum Wr. Wb</h2>
 			  <h3 className="sub-title hs">{finalSubtitle}</h3>
 			  <p className="info">
-				Dengan memohon Rahmat dan Ridho Illahi, teriring niat menjalankan Sunnah Rasulullah ﷺ untuk membentuk
-				rumah tangga yang Sakinah, Mawaddah wa Rahmah, kami mohon do'a agar senantiasa diberikan kelancaran dan
-				keberkahan.
+				Queremos compartir con vos este momento tan especial en nuestras vidas y festejemos juntos
 			  </p>
 			</div>
 		  </div>
@@ -30,10 +27,7 @@ function HelloSection({ isInvitation }) {
 				<img src={Bride} alt="groom" className="img-responsive" loading="lazy" />
 			  </div>
 			  <div className="desc-groom">
-				<h3 className="main-font">Arini Dewi Al-Faaz</h3>
-				<p className="parent-name parent-name__top">
-				  Putri Bapak Romli Hidayat <br />& Ibu Siti Zainah Zakiyah (Ipih)
-				</p>
+				<h3 className="main-font">Daiana</h3>
 			  </div>
 			</div>
 			<p className="heart text-center">
@@ -47,10 +41,7 @@ function HelloSection({ isInvitation }) {
 				<img src={Groom} alt="groom" className="img-responsive" loading="lazy" />
 			  </div>
 			  <div className="desc-bride">
-				<h3 className="main-font">Miftahussalam</h3>
-				<p className="parent-name">
-				  Putra Bapak Atang <br />& Ibu Manah
-				</p>
+				<h3 className="main-font">Santiago</h3>
 			  </div>
 			</div>
 		  </div>

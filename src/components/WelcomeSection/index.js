@@ -70,20 +70,20 @@ function WelcomeSection({ location, guestName, isInvitation, isAnonymGuest, code
           <div className="row" css={styWrapper}>
             <div className="col-md-8 col-md-offset-2 text-center">
               <img src={WeddingImg} alt="wedding-arin-miftah" />
-              <h4 className="sub-title">The Wedding of</h4>
-              <h1 className="title">Arin &amp; Miftah</h1>
+              <h4 className="sub-title">La boda de</h4>
+              <h1 className="title">Dai &amp; Santi</h1>
               <div className={isAnonymGuest ? 'margin__bottom' : ''}>
                 <CountContainer />
               </div>
               <div className="row" css={styButtonWrapper}>
                   <div className="col-md-3">
                     <a href={GOOGLE_CALENDAR_LINK} title="Add to My Calendar" target="_blank" rel="noreferrer">
-                      <button className="btn btn-default btn-block">Add to Calendar</button>
+                      <button className="btn btn-default btn-block">Añadir al calendario</button>
                     </a>
                   </div>
               </div>
               <br></br>
-              {renderGuestSection()}
+              {/* {renderGuestSection()} */}
               {isInvitation && (
                 <div className="row" css={styButtonWrapper}>
                   <div className="col-md-3">
