@@ -1,7 +1,6 @@
 import React, { Fragment } from 'react';
 import { GOOGLE_MAPS_LINK } from '@/constants';
 import { styWrapper } from './styles';
-import Peta from '@assets/images/peta.jpeg';
 
 function LocationSection() {
   return (
@@ -14,7 +13,7 @@ function LocationSection() {
               <p className="sub-title">
                 <a
                   href={GOOGLE_MAPS_LINK}
-                  title="Click untuk melihat peta di Google Maps"
+                  title="Click para abrir con Google Maps"
                   target="_blank"
                   rel="noreferrer"
                   style={{ color: '#828282' }}
@@ -37,7 +36,7 @@ function LocationSection() {
                 allowFullScreen
                 aria-hidden="false"
                 tabIndex="0"
-                title="Google Maps - Arin & Miftah Wedding Party"
+                title="Google Maps - Dai y Santi Wedding Party"
               ></iframe>
             </div>
           </div>

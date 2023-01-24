@@ -31,7 +31,7 @@ function HelloSection({ isInvitation }) {
 			  </div>
 			</div>
 			<p className="heart text-center">
-			  <i className="icon-heart2"></i>
+			  <i className="icon-heart2 bg-red"></i>
 			</p>
 			<div className="and-love">
 			  <i>&</i>

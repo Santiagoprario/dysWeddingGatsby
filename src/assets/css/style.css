@@ -571,6 +571,11 @@ figure {
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
   border-radius: 50%;
+  transition: all .2s ease-in-out;
+}
+.timeline > li > .timeline-badge:hover {
+  transform: scale(1.5);
+  
 }
 @media screen and (max-width: 480px) {
   .timeline > li > .timeline-badge {
@@ -1069,7 +1074,7 @@ form label {
   font-size: 20px;
   background: #fff;
   padding: 20px;
-  color: ##819DA9;
+  color: #f14e95;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;

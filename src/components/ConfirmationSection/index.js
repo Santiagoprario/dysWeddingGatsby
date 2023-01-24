@@ -1,11 +1,9 @@
 import React from 'react';
 import { string, bool } from 'prop-types';
-import { Link } from 'gatsby';
 
-import { styWrapper, styFlex } from './styles';
+import { styWrapper } from './styles';
 
 function ConfirmationSection({ isInvitation, guestName, codeLink }) {
-
   return (
     <div id="fh5co-started" className="fh5co-bg" css={styWrapper}>
       <div className="overlay"></div>
@@ -18,15 +16,6 @@ function ConfirmationSection({ isInvitation, guestName, codeLink }) {
             </p>
           </div>
         </div>
-        {!isInvitation && (
-        <div className="row" css={styFlex}>
-          <div className="col-md-3">
-            <br></br>
-            <br></br>
-            <br></br>
-          </div>
-        </div>
-        )}
       </div>
     </div>
   );
