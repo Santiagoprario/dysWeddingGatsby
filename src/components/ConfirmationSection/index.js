@@ -12,7 +12,7 @@ function ConfirmationSection({ isInvitation, guestName, codeLink }) {
           <div className="col-md-8 col-md-offset-2 text-center fh5co-heading">
             <h2 className="">{`Por favor, confirmanos tu presencia`}</h2>
             <p>
-              Es muy importante para nosotros que nos digas lo antes posible si venis para poder organizarnos mejor <br /> Por favor, decinoslo por el mismo medio por el cual te llego esta invitacion, tenes tiempo hasta el 20/02/23, no la cuelgues!
+              Te pedimos que nos confirmes por el mismo medio por el cual te llego esta invitacion, tenes tiempo hasta el 20/02/23, no la cuelgues!
             </p>
           </div>
         </div>
